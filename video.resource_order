@@ -18,6 +18,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_bullet","order":2,"path":"sprites/spr_bullet/spr_bullet.yy",},
+    {"name":"Sprite14","order":16,"path":"sprites/Sprite14/Sprite14.yy",},
     {"name":"sGun","order":8,"path":"sprites/sGun/sGun.yy",},
     {"name":"sPeluru","order":3,"path":"sprites/sPeluru/sPeluru.yy",},
     {"name":"sMusuh","order":9,"path":"sprites/sMusuh/sMusuh.yy",},
@@ -28,6 +29,8 @@
     {"name":"oMusuh","order":4,"path":"objects/oMusuh/oMusuh.yy",},
     {"name":"spr_bullet3","order":4,"path":"sprites/spr_bullet3/spr_bullet3.yy",},
     {"name":"oPeluru","order":3,"path":"objects/oPeluru/oPeluru.yy",},
+    {"name":"sTiles","order":15,"path":"sprites/sTiles/sTiles.yy",},
+    {"name":"oKamera","order":6,"path":"objects/oKamera/oKamera.yy",},
     {"name":"sOrang","order":7,"path":"sprites/sOrang/sOrang.yy",},
     {"name":"sMusuhD","order":12,"path":"sprites/sMusuhD/sMusuhD.yy",},
     {"name":"oGun","order":2,"path":"objects/oGun/oGun.yy",},
