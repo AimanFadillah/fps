@@ -9,6 +9,7 @@ recoil = max(0,recoil -1);
 if(mouse_check_button(mb_left) && delay < 0){
 	recoil = 4
 	delay = 5;
+	ScreenShake(3,10);
 	with(instance_create_layer(x,y,"peluru",oPeluru)){
 		speed = 25;	
 		direction = other.image_angle + random_range(-3,3);
