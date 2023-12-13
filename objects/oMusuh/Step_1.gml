@@ -5,7 +5,8 @@ if(hp <= 0){
 		direction = other.hitfrom;
 		hsp = lengthdir_x(3,direction);
 		vsp = lengthdir_y(3,direction) - 5;
-		if(sign(other.hsp) != 0) image_xscale = sign(other.hsp) == 1 ? 3 : -3;
+		if(sign(other.hsp) != 0) image_xscale = sign(other.hsp) * other.size;
+		image_yscale = other.size;
 	}
 	instance_destroy();
 }
